@@ -1,0 +1,65 @@
+
+*{
+	box-sizing: border-box;
+}
+
+.wrapper{
+	h1{
+		text-align: center;
+		margin: 1em 0;
+	}
+
+	.comps{
+		width:50%;
+		margin: 0 auto;
+		background-color: #1976D2;
+		padding:1em;
+
+		.addComps{
+			margin:0 0 2em 0;
+
+			input#add{
+				padding:10px;
+				width:70%;
+				border:none;
+				height:50px;
+				border-radius: 5px 0 0 5px;
+			}
+			button#create{
+				width:30%;
+				padding:10px;
+				border:none;
+				height:50px;
+				border-radius: 0 5px 5px 0;
+				
+			}
+		}
+
+	}
+}
+
+
+ul{
+	padding:0;
+	.todo_item{
+		width:100%;
+		list-style: none;
+		background:#2196F3;
+		margin:1em 0;
+		padding:2em 1em;
+		#text{
+			display: inline-block;
+			width:80%;	
+			padding:1em 0 1em 1em;		
+		}
+		#complete{
+			display: inline-block;
+			width: 20%;
+			padding:1em 0;
+			background-color:grey;
+			text-align: center;
+
+		}
+	}
+
+}

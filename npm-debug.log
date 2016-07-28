@@ -1,0 +1,274 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'react-popup' ]
+2 info using npm@2.15.5
+3 info using node@v4.4.5
+4 verbose install initial load of /Users/benforsrup/Projects/learningreact/package.json
+5 warn package.json react-tutorials@0.0.0 No description
+6 warn package.json react-tutorials@0.0.0 No repository field.
+7 warn package.json react-tutorials@0.0.0 No README data
+8 verbose installManyTop reading scoped package data from /Users/benforsrup/Projects/learningreact/node_modules/babel-core/package.json
+9 verbose installManyTop reading scoped package data from /Users/benforsrup/Projects/learningreact/node_modules/babel-loader/package.json
+10 verbose installManyTop reading scoped package data from /Users/benforsrup/Projects/learningreact/node_modules/babel-plugin-add-module-exports/package.json
+11 verbose installManyTop reading scoped package data from /Users/benforsrup/Projects/learningreact/node_modules/babel-plugin-react-html-attrs/package.json
+12 verbose installManyTop reading scoped package data from /Users/benforsrup/Projects/learningreact/node_modules/babel-plugin-transform-class-properties/package.json
+13 verbose installManyTop reading scoped package data from /Users/benforsrup/Projects/learningreact/node_modules/babel-plugin-transform-decorators-legacy/package.json
+14 verbose installManyTop reading scoped package data from /Users/benforsrup/Projects/learningreact/node_modules/babel-preset-es2015/package.json
+15 verbose installManyTop reading scoped package data from /Users/benforsrup/Projects/learningreact/node_modules/babel-preset-react/package.json
+16 verbose installManyTop reading scoped package data from /Users/benforsrup/Projects/learningreact/node_modules/babel-preset-stage-0/package.json
+17 verbose installManyTop reading scoped package data from /Users/benforsrup/Projects/learningreact/node_modules/flux/package.json
+18 verbose installManyTop reading scoped package data from /Users/benforsrup/Projects/learningreact/node_modules/history/package.json
+19 verbose installManyTop reading scoped package data from /Users/benforsrup/Projects/learningreact/node_modules/react/package.json
+20 verbose installManyTop reading scoped package data from /Users/benforsrup/Projects/learningreact/node_modules/react-dom/package.json
+21 verbose installManyTop reading scoped package data from /Users/benforsrup/Projects/learningreact/node_modules/react-router/package.json
+22 verbose installManyTop reading scoped package data from /Users/benforsrup/Projects/learningreact/node_modules/webpack/package.json
+23 verbose installManyTop reading scoped package data from /Users/benforsrup/Projects/learningreact/node_modules/webpack-dev-server/package.json
+24 verbose readDependencies loading dependencies from /Users/benforsrup/Projects/learningreact/package.json
+25 silly cache add args [ 'react-popup', null ]
+26 verbose cache add spec react-popup
+27 silly cache add parsed spec Result {
+27 silly cache add   raw: 'react-popup',
+27 silly cache add   scope: null,
+27 silly cache add   name: 'react-popup',
+27 silly cache add   rawSpec: '',
+27 silly cache add   spec: 'latest',
+27 silly cache add   type: 'tag' }
+28 silly addNamed react-popup@latest
+29 verbose addNamed "latest" is being treated as a dist-tag for react-popup
+30 info addNameTag [ 'react-popup', 'latest' ]
+31 silly mapToRegistry name react-popup
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry data Result {
+34 silly mapToRegistry   raw: 'react-popup',
+34 silly mapToRegistry   scope: null,
+34 silly mapToRegistry   name: 'react-popup',
+34 silly mapToRegistry   rawSpec: '',
+34 silly mapToRegistry   spec: 'latest',
+34 silly mapToRegistry   type: 'tag' }
+35 silly mapToRegistry uri https://registry.npmjs.org/react-popup
+36 verbose addNameTag registry:https://registry.npmjs.org/react-popup not in flight; fetching
+37 verbose request uri https://registry.npmjs.org/react-popup
+38 verbose request no auth needed
+39 info attempt registry request try #1 at 1:42:44 PM
+40 verbose request id fd1b06aa43be992f
+41 http request GET https://registry.npmjs.org/react-popup
+42 http 200 https://registry.npmjs.org/react-popup
+43 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+43 verbose headers   etag: '"CK8Y1KIA28YZBX9RIGGPYCE1B"',
+43 verbose headers   'content-type': 'application/json',
+43 verbose headers   'content-encoding': 'gzip',
+43 verbose headers   'cache-control': 'max-age=300',
+43 verbose headers   'content-length': '5029',
+43 verbose headers   'accept-ranges': 'bytes',
+43 verbose headers   date: 'Thu, 28 Jul 2016 11:42:45 GMT',
+43 verbose headers   via: '1.1 varnish',
+43 verbose headers   age: '0',
+43 verbose headers   connection: 'keep-alive',
+43 verbose headers   'x-served-by': 'cache-bma7025-BMA',
+43 verbose headers   'x-cache': 'MISS',
+43 verbose headers   'x-cache-hits': '0',
+43 verbose headers   'x-timer': 'S1469706164.703696,VS0,VE493',
+43 verbose headers   vary: 'Accept-Encoding' }
+44 silly get cb [ 200,
+44 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+44 silly get     etag: '"CK8Y1KIA28YZBX9RIGGPYCE1B"',
+44 silly get     'content-type': 'application/json',
+44 silly get     'content-encoding': 'gzip',
+44 silly get     'cache-control': 'max-age=300',
+44 silly get     'content-length': '5029',
+44 silly get     'accept-ranges': 'bytes',
+44 silly get     date: 'Thu, 28 Jul 2016 11:42:45 GMT',
+44 silly get     via: '1.1 varnish',
+44 silly get     age: '0',
+44 silly get     connection: 'keep-alive',
+44 silly get     'x-served-by': 'cache-bma7025-BMA',
+44 silly get     'x-cache': 'MISS',
+44 silly get     'x-cache-hits': '0',
+44 silly get     'x-timer': 'S1469706164.703696,VS0,VE493',
+44 silly get     vary: 'Accept-Encoding' } ]
+45 verbose get saving react-popup to /Users/benforsrup/.npm/registry.npmjs.org/react-popup/.cache.json
+46 verbose correctMkdir /Users/benforsrup/.npm correctMkdir not in flight; initializing
+47 silly addNameTag next cb for react-popup with tag latest
+48 silly addNamed react-popup@0.4.2
+49 verbose addNamed "0.4.2" is a plain semver version for react-popup
+50 silly mapToRegistry name react-popup
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'react-popup',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   name: 'react-popup',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri https://registry.npmjs.org/react-popup
+55 verbose addRemoteTarball https://registry.npmjs.org/react-popup/-/react-popup-0.4.2.tgz not in flight; adding
+56 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-popup/-/react-popup-0.4.2.tgz',
+56 verbose addRemoteTarball   '33e7382f704c793e5ee4976e942aaf424a9e63aa' ]
+57 info retry fetch attempt 1 at 1:42:45 PM
+58 info attempt registry request try #1 at 1:42:45 PM
+59 http fetch GET https://registry.npmjs.org/react-popup/-/react-popup-0.4.2.tgz
+60 http fetch 200 https://registry.npmjs.org/react-popup/-/react-popup-0.4.2.tgz
+61 silly fetchAndShaCheck shasum 33e7382f704c793e5ee4976e942aaf424a9e63aa
+62 verbose addTmpTarball /var/folders/1c/47clv4gn52sbv33kr4705ys40000gn/T/npm-1373-880b2903/registry.npmjs.org/react-popup/-/react-popup-0.4.2.tgz not in flight; adding
+63 verbose addTmpTarball already have metadata; skipping unpack for react-popup@0.4.2
+64 verbose correctMkdir /Users/benforsrup/.npm correctMkdir not in flight; initializing
+65 silly cache afterAdd react-popup@0.4.2
+66 verbose afterAdd /Users/benforsrup/.npm/react-popup/0.4.2/package/package.json not in flight; writing
+67 verbose correctMkdir /Users/benforsrup/.npm correctMkdir not in flight; initializing
+68 verbose afterAdd /Users/benforsrup/.npm/react-popup/0.4.2/package/package.json written
+69 silly install resolved [ { name: 'react-popup',
+69 silly install resolved     version: '0.4.2',
+69 silly install resolved     description: 'React popup component from Minutemailer',
+69 silly install resolved     main: 'dist/index.js',
+69 silly install resolved     scripts: { lint: 'eslint index.js', test: 'jest' },
+69 silly install resolved     repository:
+69 silly install resolved      { type: 'git',
+69 silly install resolved        url: 'git+https://github.com/minutemailer/react-popup.git' },
+69 silly install resolved     keywords:
+69 silly install resolved      [ 'react',
+69 silly install resolved        'popup',
+69 silly install resolved        'js',
+69 silly install resolved        'javascript',
+69 silly install resolved        'minutemailer',
+69 silly install resolved        'react-component' ],
+69 silly install resolved     author: { name: 'Tobias Bleckert', url: 'Minutemailer' },
+69 silly install resolved     license: 'MIT',
+69 silly install resolved     bugs: { url: 'https://github.com/minutemailer/react-popup/issues' },
+69 silly install resolved     homepage: 'https://github.com/minutemailer/react-popup',
+69 silly install resolved     peerDependencies: { react: '^15.0.1', 'react-dom': '^15.0.1' },
+69 silly install resolved     jest:
+69 silly install resolved      { scriptPreprocessor: '<rootDir>/node_modules/babel-jest',
+69 silly install resolved        unmockedModulePathPatterns: [Object],
+69 silly install resolved        modulePathIgnorePatterns: [Object] },
+69 silly install resolved     devDependencies:
+69 silly install resolved      { 'babel-eslint': '^6.0.2',
+69 silly install resolved        'babel-jest': '^11.0.0',
+69 silly install resolved        'babel-plugin-transform-object-assign': '^6.5.0',
+69 silly install resolved        'babel-preset-es2015': '^6.6.0',
+69 silly install resolved        'babel-preset-react': '^6.5.0',
+69 silly install resolved        eslint: '^2.7.0',
+69 silly install resolved        gulp: '^3.9.1',
+69 silly install resolved        'gulp-babel': '^6.1.2',
+69 silly install resolved        'gulp-rename': '^1.2.2',
+69 silly install resolved        'jest-cli': '^11.0.0',
+69 silly install resolved        'react-addons-test-utils': '^15.0.1' },
+69 silly install resolved     gitHead: 'be25fe6cd652b64e4cd39c604a6c2ead744bedef',
+69 silly install resolved     _id: 'react-popup@0.4.2',
+69 silly install resolved     _shasum: '33e7382f704c793e5ee4976e942aaf424a9e63aa',
+69 silly install resolved     _from: 'react-popup@latest',
+69 silly install resolved     _npmVersion: '2.14.4',
+69 silly install resolved     _nodeVersion: '5.1.1',
+69 silly install resolved     _npmUser: { name: 'tbleckert', email: 'me@tb-one.se' },
+69 silly install resolved     dist:
+69 silly install resolved      { shasum: '33e7382f704c793e5ee4976e942aaf424a9e63aa',
+69 silly install resolved        tarball: 'https://registry.npmjs.org/react-popup/-/react-popup-0.4.2.tgz' },
+69 silly install resolved     maintainers: [ [Object] ],
+69 silly install resolved     _npmOperationalInternal:
+69 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+69 silly install resolved        tmp: 'tmp/react-popup-0.4.2.tgz_1461005028458_0.01637518871575594' },
+69 silly install resolved     directories: {},
+69 silly install resolved     _resolved: 'https://registry.npmjs.org/react-popup/-/react-popup-0.4.2.tgz' } ]
+70 info install react-popup@0.4.2 into /Users/benforsrup/Projects/learningreact
+71 info installOne react-popup@0.4.2
+72 verbose installOne of react-popup to /Users/benforsrup/Projects/learningreact not in flight; installing
+73 verbose correctMkdir /Users/benforsrup/.npm/_locks correctMkdir not in flight; initializing
+74 verbose lock using /Users/benforsrup/.npm/_locks/react-popup-7162f7ba67ed80fb.lock for /Users/benforsrup/Projects/learningreact/node_modules/react-popup
+75 silly install write writing react-popup 0.4.2 to /Users/benforsrup/Projects/learningreact/node_modules/react-popup
+76 verbose unbuild node_modules/react-popup
+77 silly gentlyRm /Users/benforsrup/Projects/learningreact/node_modules/react-popup is being purged from base /Users/benforsrup/Projects/learningreact
+78 verbose gentlyRm don't care about contents; nuking /Users/benforsrup/Projects/learningreact/node_modules/react-popup
+79 verbose tar unpack /Users/benforsrup/.npm/react-popup/0.4.2/package.tgz
+80 verbose tar unpacking to /Users/benforsrup/Projects/learningreact/node_modules/react-popup
+81 silly gentlyRm /Users/benforsrup/Projects/learningreact/node_modules/react-popup is being purged
+82 verbose gentlyRm don't care about contents; nuking /Users/benforsrup/Projects/learningreact/node_modules/react-popup
+83 silly gunzTarPerm modes [ '755', '644' ]
+84 silly gunzTarPerm extractEntry package.json
+85 silly gunzTarPerm extractEntry .npmignore
+86 silly gunzTarPerm extractEntry README.md
+87 silly gunzTarPerm extractEntry LICENSE
+88 silly gunzTarPerm extractEntry gulpfile.js
+89 silly gunzTarPerm extractEntry __tests__/.gitkeep
+90 silly gunzTarPerm extractEntry .babelrc
+91 silly gunzTarPerm extractEntry dist/ActionButton.react.js
+92 silly gunzTarPerm extractEntry dist/Footer.react.js
+93 silly gunzTarPerm extractEntry dist/Header.react.js
+94 silly gunzTarPerm extractEntry dist/Input.react.js
+95 silly gunzTarPerm extractEntry dist/index.js
+96 silly gunzTarPerm extractEntry .eslintrc
+97 silly gunzTarPerm extractEntry src/ActionButton.react.js
+98 silly gunzTarPerm extractEntry src/Footer.react.js
+99 silly gunzTarPerm extractEntry src/Header.react.js
+100 silly gunzTarPerm extractEntry src/Input.react.js
+101 silly gunzTarPerm extractEntry src/index.js
+102 verbose write writing to /Users/benforsrup/Projects/learningreact/node_modules/react-popup/package.json
+103 info preinstall react-popup@0.4.2
+104 verbose readDependencies loading dependencies from /Users/benforsrup/Projects/learningreact/node_modules/react-popup/package.json
+105 silly prepareForInstallMany adding react@^15.0.1 from react-popup peerDependencies
+106 silly prepareForInstallMany adding react-dom@^15.0.1 from react-popup peerDependencies
+107 warn peerDependencies The peer dependency react@^15.0.1 included from react-popup will no
+108 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+109 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+110 warn peerDependencies The peer dependency react-dom@^15.0.1 included from react-popup will no
+111 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+112 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+113 verbose readDependencies loading dependencies from /Users/benforsrup/Projects/learningreact/node_modules/react-popup/package.json
+114 silly install resolved []
+115 verbose about to build /Users/benforsrup/Projects/learningreact/node_modules/react-popup
+116 info build /Users/benforsrup/Projects/learningreact/node_modules/react-popup
+117 info linkStuff react-popup@0.4.2
+118 silly linkStuff react-popup@0.4.2 has /Users/benforsrup/Projects/learningreact/node_modules as its parent node_modules
+119 verbose linkBins react-popup@0.4.2
+120 verbose linkMans react-popup@0.4.2
+121 verbose rebuildBundles react-popup@0.4.2
+122 info install react-popup@0.4.2
+123 info postinstall react-popup@0.4.2
+124 verbose readDependencies loading dependencies from /Users/benforsrup/Projects/learningreact/package.json
+125 verbose targetResolver reading package data from /Users/benforsrup/Projects/learningreact/node_modules/babel-core/package.json
+126 verbose targetResolver reading package data from /Users/benforsrup/Projects/learningreact/node_modules/babel-loader/package.json
+127 verbose targetResolver reading package data from /Users/benforsrup/Projects/learningreact/node_modules/babel-plugin-add-module-exports/package.json
+128 verbose targetResolver reading package data from /Users/benforsrup/Projects/learningreact/node_modules/babel-plugin-react-html-attrs/package.json
+129 verbose targetResolver reading package data from /Users/benforsrup/Projects/learningreact/node_modules/babel-plugin-transform-class-properties/package.json
+130 verbose targetResolver reading package data from /Users/benforsrup/Projects/learningreact/node_modules/babel-plugin-transform-decorators-legacy/package.json
+131 verbose targetResolver reading package data from /Users/benforsrup/Projects/learningreact/node_modules/babel-preset-es2015/package.json
+132 verbose targetResolver reading package data from /Users/benforsrup/Projects/learningreact/node_modules/babel-preset-react/package.json
+133 verbose targetResolver reading package data from /Users/benforsrup/Projects/learningreact/node_modules/babel-preset-stage-0/package.json
+134 verbose targetResolver reading package data from /Users/benforsrup/Projects/learningreact/node_modules/flux/package.json
+135 verbose targetResolver reading package data from /Users/benforsrup/Projects/learningreact/node_modules/history/package.json
+136 verbose targetResolver reading package data from /Users/benforsrup/Projects/learningreact/node_modules/react/package.json
+137 verbose targetResolver reading package data from /Users/benforsrup/Projects/learningreact/node_modules/react-dom/package.json
+138 verbose targetResolver reading package data from /Users/benforsrup/Projects/learningreact/node_modules/react-popup/package.json
+139 verbose targetResolver reading package data from /Users/benforsrup/Projects/learningreact/node_modules/react-router/package.json
+140 verbose targetResolver reading package data from /Users/benforsrup/Projects/learningreact/node_modules/webpack/package.json
+141 verbose targetResolver reading package data from /Users/benforsrup/Projects/learningreact/node_modules/webpack-dev-server/package.json
+142 verbose targetResolver reading package data from /Users/benforsrup/Projects/learningreact/node_modules/.bin/webpack/package.json
+143 verbose targetResolver reading package data from /Users/benforsrup/Projects/learningreact/node_modules/.bin/webpack-dev-server/package.json
+144 verbose already installed skipping react@^15.0.1 /Users/benforsrup/Projects/learningreact
+145 verbose already installed skipping react-dom@^15.0.1 /Users/benforsrup/Projects/learningreact
+146 silly install resolved []
+147 verbose unlock done using /Users/benforsrup/.npm/_locks/react-popup-7162f7ba67ed80fb.lock for /Users/benforsrup/Projects/learningreact/node_modules/react-popup
+148 verbose validateInstall loading /Users/benforsrup/Projects/learningreact/package.json for validation
+149 verbose stack Error: The package react@0.14.8 does not satisfy its siblings' peerDependencies requirements!
+149 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+149 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+149 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+149 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+149 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+149 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+149 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+149 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+149 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+149 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+150 verbose cwd /Users/benforsrup/Projects/learningreact
+151 error Darwin 15.4.0
+152 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "react-popup"
+153 error node v4.4.5
+154 error npm  v2.15.5
+155 error code EPEERINVALID
+156 error peerinvalid The package react@0.14.8 does not satisfy its siblings' peerDependencies requirements!
+156 error peerinvalid Peer react-dom@0.14.8 wants react@^0.14.8
+156 error peerinvalid Peer react-popup@0.4.2 wants react@^15.0.1
+157 verbose exit [ 1, true ]
